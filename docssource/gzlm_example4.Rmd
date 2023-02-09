@@ -1,0 +1,31 @@
+---
+title: "Frequencies analysis with overdispersed models"
+author: "(by Marcello Gallucci)"
+topic: gzlm
+category: example
+nickname: overPoisson
+output: 
+  html_document:
+     includes:
+         in_header: ganalytics.txt
+     toc: true
+     toc_float:
+        collapsed: false
+
+---
+
+```{r echo=FALSE,results='hide'}
+library(mcdocs)
+mcdocs_init()
+```
+
+`r keywords("jamovi, Poisson models, generalized linear models, odd-ratios, regression, frequencies, count data, log-linear models, overdispersion")`
+
+`r version("0.9.4")` `r draft` 
+
+Work in progress
+
+# Related examples
+`r include_examples("gzlm")`
+
+`r issues()`
